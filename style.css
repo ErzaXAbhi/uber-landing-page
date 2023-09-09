@@ -110,9 +110,9 @@ body {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin-top: 7rem;
+    margin-top: 9rem;
     align-items: center;
-    margin: 2rem;
+    margin: 1rem;
   }
 
   .hero-heading h1 {
@@ -133,14 +133,14 @@ body {
   .route-img img {
     width: 20rem;
     height: 20rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 5rem;
   }
 
   .app-link {
     display: flex;
     justify-content: flex-end;
-    margin-right: 7.5rem;
+    margin-right: 5.5rem;
     margin-top: 5rem;
   }
 
