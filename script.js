@@ -1,3 +1,26 @@
+// Hero reveal
+
+const logo = document.querySelector(".logo");
+const heading = document.querySelector(".hero-heading");
+
+window.addEventListener("load", reveal);
+
+function reveal() {
+  const TLFADE = gsap.timeline();
+
+  TLFADE.from(logo, { autoAlpha: 0, y: -50, delay: 0.2 }).from(
+    heading,
+    {
+      autoAlpha: 0,
+      y: -50,
+      delay: 0.4,
+    },
+    "-=0.2"
+  );
+}
+
+// scroll trigger animation
+
 gsap.from(".info-text h2", {
   duration: 1,
   autoAlpha: 0,
