@@ -110,9 +110,9 @@ body {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin-top: 9rem;
+
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
   }
 
   .hero-heading h1 {
@@ -120,14 +120,16 @@ body {
     font-weight: 600;
     text-align: left;
     line-height: 1.2;
+    margin-top: 7rem;
   }
 
   .info-text h3 {
     font-size: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   .info-text h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    margin-top: 2rem;
   }
 
   .route-img img {
