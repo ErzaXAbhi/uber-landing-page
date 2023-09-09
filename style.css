@@ -49,6 +49,7 @@ body {
   margin-top: 2rem;
   margin-left: 2rem;
   font-size: 5rem;
+  visibility: hidden;
 }
 
 .info-text h3 {
